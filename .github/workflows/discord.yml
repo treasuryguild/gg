@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 env: 
   fundR: ${{ fromJSON(github.event.issue.body).fund }} 
-  GitB: "gsg"
+  GitB: "gg"
  # schedule:
     # run every 8 hours
   #  - cron:  '0 0,8,16 * * *'
